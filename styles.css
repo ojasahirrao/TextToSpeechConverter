@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  color: #1e88e5;
+  color: rebeccapurple;
 }
 
 .text-input {
@@ -28,7 +28,7 @@ h1 {
 }
 
 .text-input:focus {
-  border-color: #1e88e5;
+  border-color: rebeccapurple;
   box-shadow: 0 0 5px rgba(30, 136, 229, 0.4);
 }
 
@@ -40,7 +40,7 @@ h1 {
 
 button {
   padding: 12px 25px;
-  background-color: #1e88e5;
+  background-color: rebeccapurple;
   color: white;
   border: none;
   border-radius: 6px;
@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-  background-color: #1565c0;
+  background-color: purple;
 }
 
 .audio-player {
