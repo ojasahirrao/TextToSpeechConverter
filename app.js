@@ -9,7 +9,7 @@ async function convertText() {
     return;
   }
 
-  const response = await fetch(`https://3mw4nkipq1.execute-api.ap-south-1.amazonaws.com/dev/speech?text=${encodeURIComponent(text)}`);
+  const response = await fetch(`https://{api-key}.execute-api.ap-south-1.amazonaws.com/dev/speech?text=${encodeURIComponent(text)}`);
 
   if (!response.ok) {
     alert("Error generating audio.");
